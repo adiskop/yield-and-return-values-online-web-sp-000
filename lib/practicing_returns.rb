@@ -10,7 +10,3 @@ def hello(array)
   end
   array
 end
-
-
-
-
