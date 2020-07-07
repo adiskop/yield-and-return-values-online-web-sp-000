@@ -1,9 +1,12 @@
+require 'pry'
+
 def hello(array)
   i = 0
-  collection = []
+  array=[]
   while i < array.length
-    collection << yield(array[i])
+
+  array << yield(array[i])
     i += 1
   end
-  collection
+  array
 end
